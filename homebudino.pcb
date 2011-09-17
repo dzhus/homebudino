@@ -1,5 +1,5 @@
 # release: pcb 20100929
-# date:    Sat Sep 17 16:44:12 2011
+# date:    Sat Sep 17 16:48:37 2011
 # user:    sphinx ()
 # host:    blizzard
 
@@ -1934,6 +1934,7 @@ Layer(9 "silk")
 Layer(10 "silk")
 (
 	Text[165748 268939 1 100 "+)-" "clearline"]
+	Text[11023 194096 3 100 "Homebudino rev.1" "clearline"]
 )
 NetList()
 (
