@@ -18,7 +18,7 @@ device=RESISTOR
 T 52100 46300 5 10 1 1 180 0 1
 refdes=R1
 T 52600 46600 5 10 0 0 90 0 1
-footprint=0.125W_Carbon_Resistor
+footprint=0805
 T 52500 46300 5 10 1 1 180 0 1
 value=10K
 }
@@ -48,7 +48,7 @@ refdes=D2
 T 48500 42600 5 10 0 0 0 0 1
 device=LED
 T 48400 42000 5 10 0 0 0 0 1
-footprint=LED3
+footprint=0805
 }
 C 49400 41800 1 0 0 gnd-1.sym
 C 47500 42000 1 0 0 resistor-2.sym
@@ -58,7 +58,7 @@ device=RESISTOR
 T 47700 42300 5 10 1 1 0 0 1
 refdes=R3
 T 47500 42000 5 10 0 0 270 0 1
-footprint=0.125W_Carbon_Resistor
+footprint=0805
 T 48000 42300 5 10 1 1 0 0 1
 value=1K
 }
@@ -211,7 +211,7 @@ refdes=D1
 T 49500 52300 5 10 0 0 0 0 1
 device=LED
 T 49400 51700 5 10 0 0 0 0 1
-footprint=LED3
+footprint=0805
 }
 C 50400 51500 1 0 0 gnd-1.sym
 C 48500 51700 1 0 0 resistor-2.sym
@@ -221,7 +221,7 @@ device=RESISTOR
 T 48700 52000 5 10 1 1 0 0 1
 refdes=R2
 T 48500 51700 5 10 0 0 270 0 1
-footprint=0.125W_Carbon_Resistor
+footprint=0805
 T 49000 52000 5 10 1 1 0 0 1
 value=1K
 }
@@ -269,7 +269,7 @@ device=RESISTOR
 T 54400 46600 5 10 1 1 0 0 1
 refdes=R5
 T 53900 46300 5 10 0 0 270 0 1
-footprint=0.125W_Carbon_Resistor
+footprint=0805
 T 54000 46600 5 10 1 1 0 0 1
 value=10K
 }
@@ -280,7 +280,7 @@ device=RESISTOR
 T 54400 48000 5 10 1 1 0 0 1
 refdes=R4
 T 53900 47700 5 10 0 0 270 0 1
-footprint=0.125W_Carbon_Resistor
+footprint=0805
 T 54000 48000 5 10 1 1 0 0 1
 value=10K
 }
@@ -323,7 +323,7 @@ symversion=0.1
 T 52200 54100 5 10 1 1 0 0 1
 value=10u
 T 51700 53700 5 10 0 0 270 0 1
-footprint=RCY100
+footprint=CPolar_D4
 }
 N 51400 52900 51400 53900 4
 N 52900 52900 52900 53900 4
@@ -341,7 +341,7 @@ device=CAPACITOR
 T 48400 53000 5 10 1 1 0 0 1
 refdes=C4
 T 48200 52600 5 10 0 0 0 0 1
-footprint=ACY-25
+footprint=0805
 T 48700 53000 5 10 1 1 0 0 1
 value=330n
 }
@@ -358,7 +358,7 @@ symversion=0.1
 T 52200 53100 5 10 1 1 0 0 1
 value=100u
 T 51700 52700 5 10 0 0 270 0 1
-footprint=RCY100
+footprint=CPolar_D6.3
 }
 N 40500 39100 40500 38900 4
 C 38800 39000 1 270 0 capacitor-1.sym
@@ -368,7 +368,7 @@ device=CAPACITOR
 T 39200 38600 5 10 1 1 0 0 1
 refdes=C6
 T 38800 39000 5 10 0 0 270 0 1
-footprint=ACY-25
+footprint=0805
 T 39200 38400 5 10 1 1 0 0 1
 value=100n
 }
@@ -385,7 +385,7 @@ symversion=0.1
 T 53600 52200 5 10 1 1 0 0 1
 value=10u
 T 53100 51800 5 10 0 0 270 0 1
-footprint=RCY100
+footprint=CPolar_D4
 }
 C 51800 51100 1 0 0 gnd-1.sym
 N 53100 52000 52700 52000 4
@@ -423,7 +423,7 @@ device=CAPACITOR
 T 50600 49300 5 10 1 1 0 0 1
 refdes=C3
 T 50200 49700 5 10 0 0 270 0 1
-footprint=ACY-25
+footprint=0805
 T 50600 49100 5 10 1 1 0 0 1
 value=100n
 }
@@ -455,7 +455,7 @@ device=CAPACITOR
 T 49700 43800 5 10 1 1 180 0 1
 refdes=C2
 T 49900 44200 5 10 0 0 180 0 1
-footprint=ACY-25
+footprint=0805
 T 49400 43800 5 10 1 1 180 0 1
 value=100n
 }
@@ -538,7 +538,7 @@ device=CAPACITOR
 T 46500 49500 5 10 1 1 0 0 1
 refdes=C8
 T 46100 49900 5 10 0 0 270 0 1
-footprint=ACY-25
+footprint=0805
 T 46500 49300 5 10 1 1 0 0 1
 value=100n
 }
