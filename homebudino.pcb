@@ -1,5 +1,5 @@
 # release: pcb 20100929
-# date:    Mon Sep 26 21:24:39 2011
+# date:    Mon Sep 26 22:21:29 2011
 # user:    sphinx ()
 # host:    blizzard
 
@@ -12,7 +12,7 @@ Grid[393.700775 0 0 1]
 Cursor[0 0 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
-DRC[787 1000 787 1000 1575 3543]
+DRC[807 1000 807 1000 1575 1969]
 Flags("showdrc,nameonpcb,uniquename,clearnew,snappin")
 Groups("1,c:2,s:3:4:5:6:7:8")
 Styles["Signal,1575,3598,2000,1575:Power,2500,6000,3500,1000:Fat,4000,6000,3500,1000:Skinny,787,3543,1575,787"]
