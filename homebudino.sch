@@ -29,7 +29,7 @@ C 43800 49700 1 0 0 connector4-1.sym
 T 45600 50600 5 10 0 0 0 0 1
 device=CONNECTOR_4
 T 43800 51100 5 10 1 1 0 0 1
-refdes=CONN5
+refdes=UART
 T 43800 49700 5 10 0 0 0 0 1
 footprint=CONNECTOR 4 1
 }
@@ -292,7 +292,7 @@ C 40300 39100 1 0 0 3.3V-plus-1.sym
 C 41600 39000 1 180 0 sd-card-spi-1.sym
 {
 T 39800 36500 5 10 1 1 180 6 1
-refdes=CONN6
+refdes=SD
 T 41200 36300 5 10 0 0 180 0 1
 device=SD-card-SPI
 T 41600 39000 5 10 0 0 0 0 1

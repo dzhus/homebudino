@@ -1,5 +1,5 @@
 # release: pcb 20100929
-# date:    Sun Oct  9 22:25:22 2011
+# date:    Sun Oct  9 22:27:51 2011
 # user:    sphinx ()
 # host:    blizzard
 
@@ -1137,7 +1137,7 @@ Element["" "CONNECTOR-6-1" "CONN4" "unknown" 204567 188110 -5489 22328 1 100 ""]
 
 	)
 
-Element["" "SD_Amphenol_101_00708_64.fp" "CONN6" "unknown" 96047 259053 -39370 10827 0 100 ""]
+Element["" "SD_Amphenol_101_00708_64.fp" "SD" "unknown" 96047 259053 -39370 10827 0 100 ""]
 (
 	Pin[9842 11023 7950 1200 8550 6299 "" "X" "edge2"]
 	Pin[-72835 11023 6150 1200 6750 4527 "" "X" "edge2"]
@@ -1200,7 +1200,7 @@ Element["" "SD_Amphenol_101_00708_64.fp" "CONN6" "unknown" 96047 259053 -39370 1
 
 	)
 
-Element["" "CONNECTOR-4-1" "CONN5" "unknown" 137543 75960 19211 -10802 0 100 ""]
+Element["" "CONNECTOR-4-1" "UART" "unknown" 137543 75960 22360 -10802 0 100 ""]
 (
 	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,edge2"]
 	Pin[10000 0 6000 3000 6600 3800 "2" "2" "edge2"]
