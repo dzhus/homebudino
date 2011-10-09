@@ -1,5 +1,5 @@
 # release: pcb 20100929
-# date:    Sun Oct  9 21:04:19 2011
+# date:    Sun Oct  9 22:25:22 2011
 # user:    sphinx ()
 # host:    blizzard
 
@@ -8,7 +8,7 @@ FileVersion[20100606]
 
 PCB["Homebudino" 220472 334646]
 
-Grid[393.700775 0 0 1]
+Grid[393.700775 0 0 0]
 Cursor[0 0 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
@@ -889,6 +889,9 @@ Via[77953 57480 3598 3150 0 2000 "" ""]
 Via[65748 69291 6000 2000 0 3500 "" ""]
 Via[88189 60630 3598 3150 0 2000 "" ""]
 Via[119685 62598 3598 3150 0 2000 "" "thermal(1X)"]
+Via[133858 95669 3598 3150 0 2000 "" ""]
+Via[142913 95669 3598 3150 0 2000 "" ""]
+Via[136220 66929 3598 3150 0 2000 "" ""]
 
 Element["found" "0805" "R1" "10K" 120079 158661 -2363 6299 0 100 ""]
 (
@@ -1070,7 +1073,7 @@ Element["" "0805" "D2" "unknown" 27559 238583 -398 -9054 0 100 ""]
 
 	)
 
-Element["" "CONNECTOR-8-1" "CONN2" "unknown" 14567 153610 11001 58582 3 100 ""]
+Element["" "CONNECTOR-8-1" "CONN2" "unknown" 14567 153610 5489 76298 3 100 ""]
 (
 	Pin[0 0 6000 3000 6600 3800 "1" "1" "square"]
 	Pin[0 10000 6000 3000 6600 3800 "2" "2" ""]
@@ -1098,7 +1101,7 @@ Element["" "0805" "C8" "100n" 162992 85433 7680 -2938 0 100 ""]
 
 	)
 
-Element["" "CONNECTOR-8-1" "CONN1" "unknown" 14567 68110 10803 -5001 3 100 ""]
+Element["" "CONNECTOR-8-1" "CONN1" "unknown" 14567 68110 5291 -21536 3 100 ""]
 (
 	Pin[0 0 6000 3000 6600 3800 "1" "1" "square"]
 	Pin[0 10000 6000 3000 6600 3800 "2" "2" ""]
@@ -1117,7 +1120,7 @@ Element["" "CONNECTOR-8-1" "CONN1" "unknown" 14567 68110 10803 -5001 3 100 ""]
 
 	)
 
-Element["" "CONNECTOR-6-1" "CONN4" "unknown" 204567 188110 -11000 5005 1 100 ""]
+Element["" "CONNECTOR-6-1" "CONN4" "unknown" 204567 188110 -5489 22328 1 100 ""]
 (
 	Pin[0 0 6000 3000 6600 3800 "1" "1" "square"]
 	Pin[0 -10000 6000 3000 6600 3800 "2" "2" ""]
@@ -1371,7 +1374,7 @@ Element["" "RFM22-DIP" "RFM" "unknown" 114567 42126 -51424 12442 0 100 ""]
 
 	)
 
-Element["" "CONNECTOR-6-1" "CONN3" "unknown" 204567 118110 -11000 -39095 1 100 ""]
+Element["" "CONNECTOR-6-1" "CONN3" "unknown" 204567 118110 -5883 -56024 1 100 ""]
 (
 	Pin[0 0 6000 3000 6600 3800 "1" "1" "square"]
 	Pin[0 -10000 6000 3000 6600 3800 "2" "2" ""]
@@ -1599,7 +1602,7 @@ Layer(1 "component")
 	Line[70866 154842 69315 156393 1575 3150 "clearline"]
 	Line[74315 172259 66677 179897 1575 3150 "clearline"]
 	Line[122721 112277 129455 112277 1575 3150 "clearline"]
-	Line[137543 75960 137543 104189 1575 3150 "clearline"]
+	Line[113779 62598 119685 62598 2500 2000 "clearline"]
 	Line[66142 249586 56676 259052 1575 3150 "clearline"]
 	Line[45811 157850 45811 151157 1575 3150 "clearline"]
 	Line[14567 183386 42268 155685 1575 3150 "clearline"]
@@ -1690,18 +1693,18 @@ Layer(1 "component")
 	Line[118647 70449 85181 70449 1575 3150 "clearline"]
 	Line[14567 78110 77520 78110 1575 3150 "clearline"]
 	Line[77520 78110 85181 70449 1575 3150 "clearline"]
-	Line[122721 115426 137448 115426 1575 3150 "clearline"]
-	Line[137448 115426 142268 110606 1575 3150 "clearline"]
+	Line[92126 64567 70472 64567 2500 2000 "clearline"]
+	Line[50142 195252 50142 187937 1575 3150 "clearline"]
 	Line[185827 196850 185827 208661 2500 2000 "clearline"]
 	Line[80850 144858 72465 144858 1575 3150 "clearline"]
 	Line[103937 226378 103937 220472 2500 2000 "clearline"]
-	Line[132032 70449 137543 75960 1575 3150 "clearline"]
-	Line[129455 112277 137543 104189 1575 3150 "clearline"]
-	Line[142268 110606 142268 81235 1575 3150 "clearline"]
-	Line[142268 81235 147543 75960 1575 3150 "clearline"]
-	Line[118646 70449 132032 70449 1575 3150 "clearline"]
+	Line[106693 62598 94095 62598 2500 2000 "clearline"]
+	Line[87795 61024 88189 60630 1575 3150 "clearline"]
+	Line[92126 64567 94095 62598 2500 2000 "clearline"]
+	Line[106693 62598 106693 50000 2500 2000 "clearline"]
+	Line[133858 107874 129455 112277 1575 3150 "clearline"]
 	Line[83071 42126 74016 33071 1575 3150 "clearline"]
-	Line[139370 67717 147543 75960 1575 3150 "clearline"]
+	Line[85827 61024 87795 61024 1575 3150 "clearline"]
 	Line[176772 85433 184646 77559 2500 2000 "clearline"]
 	Line[155433 6299 71181 6299 2500 2000 "clearline"]
 	Line[31496 203543 14634 203543 1575 3150 "clearline"]
@@ -1881,7 +1884,7 @@ Layer(1 "component")
 	Line[63386 37008 70079 37008 1575 3150 "clearline"]
 	Line[77953 57480 83465 57480 1575 3150 "clearline"]
 	Line[83465 57480 90945 50000 1575 3150 "clearline"]
-	Line[82677 67717 139370 67717 1575 3150 "clearline"]
+	Line[142032 70449 147543 75960 1575 3150 "clearline"]
 	Line[14567 68110 21260 74803 1575 3150 "clearline"]
 	Line[21260 74803 75591 74803 1575 3150 "clearline"]
 	Line[75591 74803 82677 67717 1575 3150 "clearline"]
@@ -1891,14 +1894,15 @@ Layer(1 "component")
 	Line[62205 53150 62205 38189 1575 3150 "clearline"]
 	Line[59055 62992 59055 35827 1575 3150 "clearline"]
 	Line[59055 35827 61811 33071 1575 3150 "clearline"]
-	Line[87795 61024 88189 60630 1575 3150 "clearline"]
-	Line[92126 64567 70472 64567 2500 2000 "clearline"]
-	Line[50142 195252 50142 187937 1575 3150 "clearline"]
-	Line[85827 61024 87795 61024 1575 3150 "clearline"]
-	Line[106693 62598 94095 62598 2500 2000 "clearline"]
-	Line[92126 64567 94095 62598 2500 2000 "clearline"]
-	Line[106693 62598 106693 50000 2500 2000 "clearline"]
-	Line[113779 62598 119685 62598 2500 2000 "clearline"]
+	Line[122721 115426 132606 115426 1575 3150 "clearline"]
+	Line[132606 115426 137402 110630 1575 3150 "clearline"]
+	Line[137402 110630 137402 75591 1575 3150 "clearline"]
+	Line[142913 95669 142913 80590 1575 3150 "clearline"]
+	Line[142913 80590 147543 75960 1575 3150 "clearline"]
+	Line[133858 95669 133858 107874 1575 3150 "clearline"]
+	Line[118646 70449 142032 70449 1575 3150 "clearline"]
+	Line[82677 67717 135432 67717 1575 3150 "clearline"]
+	Line[135432 67717 136220 66929 1575 3150 "clearline"]
 )
 Layer(2 "solder")
 (
@@ -1961,6 +1965,9 @@ Layer(2 "solder")
 	Line[83071 50000 83071 65354 1575 3150 "clearline"]
 	Line[85433 69410 88189 66654 1575 3150 "clearline"]
 	Line[88189 66654 88189 61024 1575 3150 "clearline"]
+	Line[133858 95669 142913 95669 1575 3150 "clearline"]
+	Line[137543 75960 137543 68252 1575 3150 "clearline"]
+	Line[137543 68252 136220 66929 1575 3150 "clearline"]
 	Polygon("clearpoly")
 	(
 		[14567 68110] [204473 68110] [204473 333834] [14567 333834] 
@@ -2062,10 +2069,10 @@ Layer(10 "silk")
 	Text[164354 328167 1 100 "+)-" "clearline"]
 	Text[9629 237576 3 100 "HOMEBUDINO rev.2" "clearline"]
 	Text[164568 152757 0 144 "+" "clearline"]
-	Text[133661 91142 1 144 "TX" "clearline"]
-	Text[143899 91732 1 144 "RX" "clearline"]
-	Text[174410 71653 0 144 "+" "clearline"]
+	Text[143504 91142 1 144 "TX" "clearline"]
 	Text[120473 48032 0 100 "3.3V SPI" "clearline"]
+	Text[174410 71653 0 144 "+" "clearline"]
+	Text[133269 91732 1 144 "RX" "clearline"]
 )
 NetList()
 (
@@ -2202,15 +2209,15 @@ NetList()
 	)
 	Net("unnamed_net1" "(unknown)")
 	(
-		Connect("CONN1-1")
+		Connect("CONN1-2")
 		Connect("CONN5-2")
-		Connect("U1-30")
+		Connect("U1-31")
 	)
 	Net("unnamed_net2" "(unknown)")
 	(
-		Connect("CONN1-2")
+		Connect("CONN1-1")
 		Connect("CONN5-1")
-		Connect("U1-31")
+		Connect("U1-30")
 	)
 	Net("unnamed_net3" "(unknown)")
 	(
