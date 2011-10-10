@@ -1,5 +1,5 @@
 # release: pcb 20100929
-# date:    Mon Oct 10 16:55:42 2011
+# date:    Mon Oct 10 17:18:15 2011
 # user:    sphinx ()
 # host:    blizzard
 
@@ -989,7 +989,7 @@ Element["" "TANT_A" "C7" "10u" 98937 226378 -2874 -12687 0 100 ""]
 
 	)
 
-Element["" "CH23-CR1225" "CONN7" "unknown" 166142 120078 -7876 5118 0 100 ""]
+Element["" "CH23-CR1225" "BAT1" "unknown" 166142 120078 -5711 5118 0 100 ""]
 (
 	Attribute("use-license" "Unlimited")
 	Attribute("dist-license" "Unlimited")
