@@ -1,5 +1,5 @@
 # release: pcb 20100929
-# date:    Wed Oct 12 22:01:19 2011
+# date:    Wed Oct 12 22:17:11 2011
 # user:    sphinx ()
 # host:    blizzard
 
@@ -2186,6 +2186,8 @@ Layer(10 "silk")
 	Text[141732 33661 0 122 "-" "clearline"]
 	Text[161812 2361 0 144 "+" "clearline"]
 	Text[61812 2361 0 144 "+" "clearline"]
+	Text[58268 46260 0 122 "-" "clearline"]
+	Text[124803 43701 3 122 "->" "clearline"]
 )
 NetList()
 (
