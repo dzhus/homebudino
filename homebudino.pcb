@@ -819,7 +819,6 @@ Via[14961 317287 6000 2000 0 3500 "" "thermal(1X)"]
 Via[122442 317287 6000 2000 0 3500 "" "thermal(1X)"]
 Via[46654 32480 3937 3150 0 1969 "" ""]
 Via[44094 70669 3937 3150 0 1969 "" ""]
-Via[48425 138583 3937 3150 0 1969 "" ""]
 Via[4551 223755 6000 3000 6600 3800 "1" ""]
 Via[214630 98087 6000 3000 6600 3800 "3" ""]
 Via[4630 98087 6000 3000 6600 3800 "3" ""]
@@ -899,10 +898,11 @@ Via[46456 255118 6000 2000 0 3500 "" "thermal(1X)"]
 Via[80315 144882 3937 3150 0 1969 "" ""]
 Via[64173 22441 3937 3150 0 1969 "" ""]
 Via[55806 58164 3937 3150 0 1969 "" ""]
-Via[60522 119079 3937 3150 0 1969 "" ""]
 Via[52362 125000 3937 3150 0 1969 "" ""]
+Via[47946 119865 3937 3150 0 1969 "" ""]
+Via[60915 115935 3937 3150 0 1969 "" ""]
 
-Element["found" "0805" "R1" "10K" 120079 158661 -2363 6299 0 100 ""]
+Element["found" "0805" "R1" "10K" 120079 158661 4711 -3133 0 100 ""]
 (
 	Pad[-393 -3543 393 -3543 5118 2000 5718 "1" "1" "square"]
 	Pad[-393 3543 393 3543 5118 2000 5718 "2" "2" "square"]
@@ -920,7 +920,7 @@ Element["" "0805" "D1" "unknown" 158661 239763 -12205 -3149 0 100 ""]
 
 	)
 
-Element["" "SO8" "U2" "unknown" 156769 175116 -2000 -6000 0 100 ""]
+Element["" "SO8" "U2" "unknown" 156769 175116 -3179 -16218 0 100 ""]
 (
 	Pad[-13500 -7500 -7000 -7500 2000 1000 3000 "X1" "1" "square"]
 	Pad[-13500 -2500 -7000 -2500 2000 1000 3000 "X2" "2" "square"]
@@ -939,7 +939,7 @@ Element["" "SO8" "U2" "unknown" 156769 175116 -2000 -6000 0 100 ""]
 
 	)
 
-Element["" "DT-38" "X2" "unknown" 130920 167631 -1013 9817 0 100 ""]
+Element["" "DT-38" "X2" "unknown" 130920 167631 -12017 6673 0 100 ""]
 (
 	Pin[0 0 3598 3150 4198 2000 "1" "1" ""]
 	Pin[4331 0 3598 3150 4198 2000 "2" "2" ""]
@@ -1466,7 +1466,7 @@ Element["" "conn-RF-ASK-RX" "ASK_RX" "unknown" 193228 14567 -174803 5859 0 100 "
 
 	)
 
-Element["" "conn-RF-ASK-TX" "ASK_TX" "unknown" 133228 29528 35213 6001 0 100 ""]
+Element["" "conn-RF-ASK-TX" "ASK_TX" "unknown" 133228 29528 57221 -3038 0 100 ""]
 (
 	Pin[0 0 6000 3000 6600 3800 "ANT" "1" "square,edge2"]
 	Pin[10000 0 6000 3000 6600 3800 "GND" "2" "edge2,thermal(1X)"]
@@ -1496,7 +1496,7 @@ Element["" "1 pin" "" "2" 123228 29528 26000 0 3 100 ""]
 
 	)
 
-Element["" "SD_Amphenol_101_00708_64.fp" "SD" "unknown" 95867 263564 -39370 10827 0 100 ""]
+Element["" "SD_Amphenol_101_00708_64.fp" "SD" "unknown" 95867 263564 -37405 -10395 0 100 ""]
 (
 	Pin[9842 11023 7950 1200 8550 6299 "" "X" "edge2"]
 	Pin[-72835 11023 6150 1200 6750 4527 "" "X" "edge2"]
@@ -1984,18 +1984,20 @@ Layer(1 "component")
 	Line[53228 25765 53228 14567 1575 3150 "clearline"]
 	Line[60915 30261 55806 35370 1575 3150 "clearline"]
 	Line[55806 35370 55806 58164 1575 3150 "clearline"]
-	Line[85163 118576 61418 118576 1575 3150 "clearline"]
-	Line[61418 118576 60915 119079 1575 3150 "clearline"]
-	Line[60915 119079 49075 119079 1575 3150 "clearline"]
-	Line[49075 119079 14516 153638 1575 3150 "clearline"]
-	Line[85163 121726 62984 121726 1575 3150 "clearline"]
-	Line[62984 121726 59710 125000 1575 3150 "clearline"]
-	Line[59710 125000 52362 125000 1575 3150 "clearline"]
 	Line[52362 125000 14541 162821 1575 3150 "clearline"]
 	Line[14541 162821 14541 163584 1575 3150 "clearline"]
 	Line[90945 42126 90945 33636 1575 3150 "clearline"]
 	Line[90945 33636 94320 30261 1575 3150 "clearline"]
 	Line[60915 30261 84320 30261 1575 3150 "clearline"]
+	Line[85163 118576 63383 118576 1575 3150 "clearline"]
+	Line[63383 118576 62487 119472 1575 3150 "clearline"]
+	Line[62487 119472 48339 119472 1575 3150 "clearline"]
+	Line[85163 121726 63377 121726 1575 3150 "clearline"]
+	Line[63377 121726 62487 122616 1575 3150 "clearline"]
+	Line[62487 122616 54746 122616 1575 3150 "clearline"]
+	Line[54746 122616 52328 125034 1575 3150 "clearline"]
+	Line[14567 153610 14567 153244 1575 3150 "clearline"]
+	Line[48339 119472 14567 153244 1575 3150 "clearline"]
 )
 Layer(2 "solder")
 (
@@ -2073,15 +2075,15 @@ Layer(2 "solder")
 	Line[140550 66535 144724 70709 1575 3150 "clearline"]
 	Line[126378 66142 140158 66142 1575 3150 "clearline"]
 	Line[140158 66142 140551 66535 1575 3150 "clearline"]
-	Line[44094 134251 48819 138976 1575 3150 "clearline"]
-	Line[44290 70669 44094 134251 1575 3150 "clearline"]
 	Line[46654 32480 56693 22441 1575 3150 "clearline"]
 	Line[56693 22441 64173 22441 1575 3150 "clearline"]
 	Line[55806 58164 60522 58164 1575 3150 "clearline"]
 	Line[60522 58164 63273 60915 1575 3150 "clearline"]
 	Line[63273 60915 63273 64452 1575 3150 "clearline"]
 	Line[63273 64452 60915 66810 1575 3150 "clearline"]
-	Line[60915 66810 60915 118293 1575 3150 "clearline"]
+	Line[60915 66810 60915 115149 1575 3150 "clearline"]
+	Line[44094 70669 44094 116013 1575 3150 "clearline"]
+	Line[44094 116013 47946 119865 1575 3150 "clearline"]
 	Polygon("clearpoly")
 	(
 		[14567 68110] [204473 68110] [204473 333834] [14567 333834] 
@@ -2168,6 +2170,10 @@ Layer(2 "solder")
 	(
 		[18898 55906] [54331 55906] [54331 14173] [18898 14173] 
 	)
+	Polygon("clearpoly")
+	(
+		[47553 134013] [55806 134013] [55806 137157] [47553 137157] 
+	)
 )
 Layer(3 "outline")
 (
@@ -2199,9 +2205,7 @@ Layer(10 "silk")
 	Text[164354 328167 1 100 "+)-" "clearline"]
 	Text[9629 237576 3 100 "HOMEBUDINO rev.2" "clearline"]
 	Text[164568 152757 0 144 "+" "clearline"]
-	Text[140750 69291 1 144 "RX" "clearline"]
 	Text[173426 63188 0 144 "+" "clearline"]
-	Text[150590 68701 1 144 "TX" "clearline"]
 	Text[163386 63780 0 122 "-" "clearline"]
 	Text[131103 69291 1 122 "RST" "clearline"]
 	Text[172047 2953 0 122 "-" "clearline"]
@@ -2219,6 +2223,12 @@ Layer(10 "silk")
 	Text[193356 3144 0 100 "ANT" "clearline"]
 	Text[32226 3537 0 100 "-" "clearline"]
 	Text[39638 39160 0 100 "3.3V SPI" "clearline"]
+	Text[51876 3144 0 100 "D" "clearline"]
+	Text[152091 35763 0 100 "D" "clearline"]
+	Text[173706 35370 0 100 "ANT" "clearline"]
+	Text[123402 35370 0 100 "ANT" "clearline"]
+	Text[140750 69291 1 144 "RX" "clearline"]
+	Text[150590 68701 1 144 "TX" "clearline"]
 )
 NetList()
 (
@@ -2260,6 +2270,18 @@ NetList()
 		Connect("U4-3")
 		Connect("U5-4")
 		Connect("UART-5")
+	)
+	Net("ASK_RXD" "(unknown)")
+	(
+		Connect("ASK_RX-6")
+		Connect("CONN2-2")
+		Connect("U1-13")
+	)
+	Net("ASK_TXD" "(unknown)")
+	(
+		Connect("ASK_TX-3")
+		Connect("CONN2-1")
+		Connect("U1-12")
 	)
 	Net("AUX_CS" "(unknown)")
 	(
@@ -2332,9 +2354,9 @@ NetList()
 	)
 	Net("GPIO2" "(unknown)")
 	(
-		Connect("CONN2-1")
+		Connect("CONN1-8")
 		Connect("J1-1")
-		Connect("U1-12")
+		Connect("U1-11")
 	)
 	Net("MISO" "(unknown)")
 	(
@@ -2433,78 +2455,66 @@ NetList()
 	)
 	Net("unnamed_net9" "(unknown)")
 	(
-		Connect("CONN1-8")
-		Connect("U1-11")
-	)
-	Net("unnamed_net10" "(unknown)")
-	(
 		Connect("CONN1-1")
 		Connect("U1-30")
 		Connect("UART-2")
 	)
-	Net("unnamed_net11" "(unknown)")
+	Net("unnamed_net10" "(unknown)")
 	(
 		Connect("CONN1-7")
 		Connect("U1-10")
 	)
-	Net("unnamed_net12" "(unknown)")
+	Net("unnamed_net11" "(unknown)")
 	(
-		Connect("ASK_RX-6")
-		Connect("CONN2-2")
-		Connect("U1-13")
-	)
-	Net("unnamed_net13" "(unknown)")
-	(
-		Connect("ASK_TX-3")
 		Connect("CONN2-3")
 		Connect("U1-14")
 	)
-	Net("unnamed_net14" "(unknown)")
+	Net("unnamed_net12" "(unknown)")
 	(
 		Connect("U2-1")
 		Connect("X2-2")
 	)
-	Net("unnamed_net15" "(unknown)")
+	Net("unnamed_net13" "(unknown)")
 	(
 		Connect("U2-2")
 		Connect("X2-1")
 	)
-	Net("unnamed_net16" "(unknown)")
+	Net("unnamed_net14" "(unknown)")
 	(
 		Connect("BAT1-1")
 		Connect("U2-3")
 	)
-	Net("unnamed_net17" "(unknown)")
+	Net("unnamed_net15" "(unknown)")
 	(
 		Connect("U1-7")
 		Connect("X1-1")
 	)
-	Net("unnamed_net18" "(unknown)")
+	Net("unnamed_net16" "(unknown)")
 	(
 		Connect("U1-8")
 		Connect("X1-3")
 	)
-	Net("unnamed_net19" "(unknown)")
+	Net("unnamed_net17" "(unknown)")
 	(
 		Connect("D1-1")
 		Connect("R2-2")
 	)
-	Net("unnamed_net20" "(unknown)")
+	Net("unnamed_net18" "(unknown)")
 	(
 		Connect("SD-1")
 		Connect("U3-6")
 	)
-	Net("unnamed_net21" "(unknown)")
+	Net("unnamed_net19" "(unknown)")
 	(
 		Connect("RFM-1")
 		Connect("RFM-5")
 	)
-	Net("unnamed_net22" "(unknown)")
+	Net("unnamed_net20" "(unknown)")
 	(
 		Connect("RFM-2")
 		Connect("RFM-6")
 	)
-	Net("unnamed_net23" "(unknown)")
+	Net("unnamed_net21" "(unknown)")
 	(
 		Connect("J1-2")
 		Connect("RFM-7")
