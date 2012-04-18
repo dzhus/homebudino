@@ -1476,7 +1476,7 @@ Element["" "conn-RF-ASK-RX" "ASK_RX" "unknown" 193228 14567 -174803 5859 0 100 "
 
 	)
 
-Element["" "RFM22-DIP" "RFM" "unknown" 30756 58000 -3284 4732 0 100 ""]
+Element["" "RFM22-DIP" "RFM" "unknown" 30756 58000 2216 4732 0 100 ""]
 (
 	Pin[0 0 5905 1200 6905 3622 "TXA" "1" "edge2"]
 	Pin[0 -7874 5905 1200 6905 3622 "RXA" "2" "edge2"]
@@ -2088,20 +2088,7 @@ Layer(2 "solder")
 	Line[123200 71200 126000 74000 1575 3150 "clearline"]
 	Polygon("clearpoly")
 	(
-		[212598 284646] [212598 287795] [209055 291338] [205906 291338] 
-	)
-	Polygon("clearpoly")
-	(
-		[205890 291353] [214172 283071] [214172 260236] [206298 252362] [203543 249607] 
-		[203543 291353] 
-	)
-	Polygon("clearpoly")
-	(
-		[204473 333834] [14500 333834] [14500 14500] [204473 14500] 
-		Hole (
-			[64500 55000] [62752 55000] [62252 54500] [62252 58000] [69000 58000] 
-			[69000 55000] 
-		)
+		[0 0] [220500 0] [220500 334500] [0 334500] 
 	)
 )
 Layer(3 "outline")
@@ -2131,8 +2118,11 @@ Layer(9 "silk")
 )
 Layer(10 "silk")
 (
+	Line[148500 96000 148500 85000 1575 3150 "clearline"]
+	Line[148500 85000 155500 92000 1575 3150 "clearline"]
+	Line[183500 85500 177000 92000 1575 3150 "clearline"]
+	Line[183500 96000 183500 85500 1575 3150 "clearline"]
 	Text[164354 328167 1 100 "+)-" "clearline"]
-	Text[9629 237576 3 100 "HOMEBUDINO" "clearline"]
 	Text[164568 152757 0 144 "+" "clearline"]
 	Text[161926 45188 0 144 "+" "clearline"]
 	Text[151886 46780 0 122 "-" "clearline"]
@@ -2173,7 +2163,7 @@ Layer(10 "silk")
 	Text[193000 170500 1 100 "5V" "clearline"]
 	Text[193000 191500 1 100 "RS" "clearline"]
 	Text[193000 143000 1 100 "Vcc" "clearline"]
-	Text[193000 157500 1 100 "GND" "clearline"]
+	Text[193000 158000 1 100 "GND" "clearline"]
 	Text[193000 71500 1 100 "A5" "clearline"]
 	Text[193000 81500 1 100 "A4" "clearline"]
 	Text[193000 91000 1 100 "A3" "clearline"]
@@ -2184,6 +2174,12 @@ Layer(10 "silk")
 	Text[118500 46000 0 100 "RST" "clearline"]
 	Text[140000 46000 0 100 "TX" "clearline"]
 	Text[130500 46000 0 100 "RX" "clearline"]
+	Text[158000 92500 0 120 "=^_^=" "clearline"]
+	Text[10000 234000 3 120 "HOMEBUDINO rev.1" "clearline"]
+	Text[32500 105000 3 100 "SC" "clearline"]
+	Text[32500 115000 3 100 "RC" "clearline"]
+	Text[33000 86000 3 100 "EI" "clearline"]
+	Text[32500 95500 3 100 "RI" "clearline"]
 )
 NetList()
 (
