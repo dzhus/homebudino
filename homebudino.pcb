@@ -1,7 +1,7 @@
 # release: pcb 20110918
 
 # To read pcb files, the pcb version (or the git source date) must be >= the file version
-FileVersion[20100606]
+FileVersion[20070407]
 
 PCB["Homebudino" 220472 334646]
 
@@ -878,7 +878,6 @@ Via[80315 144882 3937 3150 0 1969 "" ""]
 Via[52362 125000 3937 3150 0 1969 "" ""]
 Via[60915 115935 3937 3150 0 1969 "" ""]
 Via[118000 149500 3937 3150 0 1969 "" ""]
-Via[96678 77028 3937 3150 0 1969 "" ""]
 Via[65000 70500 6000 2000 0 3500 "" ""]
 Via[37500 36000 6000 2000 0 3500 "" "thermal(1X)"]
 Via[75000 149000 3937 3150 0 1969 "" ""]
@@ -900,6 +899,7 @@ Via[164922 85240 6000 2000 0 3500 "" "thermal(1X)"]
 Via[136000 70500 3937 3150 0 1969 "" ""]
 Via[126000 74000 3937 3150 0 1969 "" ""]
 Via[133858 100787 3937 3150 0 1969 "" ""]
+Via[96500 74500 3937 3150 0 1969 "" ""]
 
 Element["found" "0805" "R1" "10K" 131869 158268 -9830 -3633 0 100 ""]
 (
@@ -1683,13 +1683,10 @@ Layer(1 "component")
 	Line[52110 234386 45417 227693 2500 2000 "clearline"]
 	Line[59315 166483 59315 156157 2500 2000 "clearline"]
 	Line[14567 88110 72638 88110 1575 3150 "clearline"]
-	Line[72638 88110 87543 73205 1575 3150 "clearline"]
-	Line[87543 73205 117859 73205 1575 3150 "clearline"]
 	Line[127487 109127 129276 107338 1575 3150 "clearline"]
 	Line[143701 144882 156693 144882 1575 3150 "clearline"]
 	Line[173565 177616 177165 174016 1575 3150 "clearline"]
 	Line[117323 144882 125591 144882 1575 3150 "clearline"]
-	Line[117859 73205 129276 84622 1575 3150 "clearline"]
 	Line[204567 178110 185827 196850 2500 2000 "clearline"]
 	Line[190551 173228 181102 182677 1575 3150 "clearline"]
 	Line[20157 92520 14567 98110 1575 3150 "clearline"]
@@ -1866,9 +1863,6 @@ Layer(1 "component")
 	Line[118000 149500 111816 143316 1575 3150 "clearline"]
 	Line[111816 143316 111816 138930 1575 3150 "clearline"]
 	Line[72441 92520 73480 92520 1575 3150 "clearline"]
-	Line[73480 92520 89000 77000 1575 3150 "clearline"]
-	Line[89000 77000 117323 77000 1575 3150 "clearline"]
-	Line[117323 77000 123823 83500 1575 3150 "clearline"]
 	Line[30756 58000 35256 62500 1575 3150 "clearline"]
 	Line[35256 62500 42004 62500 1575 3150 "clearline"]
 	Line[42004 62500 46504 58000 1575 3150 "clearline"]
@@ -1989,6 +1983,12 @@ Layer(1 "component")
 	Line[144724 79224 136000 70500 1575 3150 "clearline"]
 	Line[126000 74000 133858 81858 1575 3150 "clearline"]
 	Line[133858 81858 133858 100787 1575 3150 "clearline"]
+	Line[118623 78300 123823 83500 1575 3150 "clearline"]
+	Line[119176 74500 129276 84600 1575 3150 "clearline"]
+	Line[119176 74500 86210 74500 1575 3150 "clearline"]
+	Line[86210 74500 72600 88110 1575 3150 "clearline"]
+	Line[118623 78300 87700 78300 1575 3150 "clearline"]
+	Line[87700 78300 73480 92520 1575 3150 "clearline"]
 	Polygon("clearpoly")
 	(
 		[110236 185039] [133858 185039] [133858 208661] [110236 208661] 
@@ -2057,8 +2057,7 @@ Layer(2 "solder")
 	Line[35382 45500 41878 45500 1575 3150 "clearline"]
 	Line[41878 45500 46504 50126 1575 3150 "clearline"]
 	Line[77953 131693 77953 74953 1575 3150 "clearline"]
-	Line[96678 77028 96678 55178 1575 3150 "clearline"]
-	Line[96678 55178 86000 44500 1575 3150 "clearline"]
+	Line[96400 54900 86000 44500 1575 3150 "clearline"]
 	Line[86000 44500 75752 44500 1575 3150 "clearline"]
 	Line[75752 44500 70126 50126 1575 3150 "clearline"]
 	Line[75000 149000 74000 148000 1575 3150 "clearline"]
@@ -2086,6 +2085,7 @@ Layer(2 "solder")
 	Line[136000 60300 133200 57500 1575 3150 "clearline"]
 	Line[123200 57500 123200 71200 1575 3150 "clearline"]
 	Line[123200 71200 126000 74000 1575 3150 "clearline"]
+	Line[96500 74500 96500 55000 1575 3150 "clearline"]
 	Polygon("clearpoly")
 	(
 		[0 0] [220500 0] [220500 334500] [0 334500] 
@@ -2178,8 +2178,10 @@ Layer(10 "silk")
 	Text[10000 234000 3 120 "HOMEBUDINO rev.1" "clearline"]
 	Text[32500 105000 3 100 "SC" "clearline"]
 	Text[32500 115000 3 100 "RC" "clearline"]
-	Text[33000 86000 3 100 "EI" "clearline"]
-	Text[32500 95500 3 100 "RI" "clearline"]
+	Text[33000 85500 3 100 "RI" "clearline"]
+	Text[32500 96000 3 100 "EI" "clearline"]
+	Text[38000 102500 0 100 "HOMEBUDINO" "clearline"]
+	Text[38000 94000 0 120 "Global Chypre" "clearline"]
 )
 NetList()
 (
@@ -2244,8 +2246,8 @@ NetList()
 	)
 	Net("ETH_INT" "(unknown)")
 	(
-		Connect("CONN1-3")
-		Connect("U1-32")
+		Connect("CONN1-4")
+		Connect("U1-1")
 	)
 	Net("GND" "(unknown)")
 	(
@@ -2324,9 +2326,9 @@ NetList()
 	)
 	Net("RFM_INT" "(unknown)")
 	(
-		Connect("CONN1-4")
+		Connect("CONN1-3")
 		Connect("RFM-12")
-		Connect("U1-1")
+		Connect("U1-32")
 	)
 	Net("RST" "(unknown)")
 	(
