@@ -2178,10 +2178,9 @@ Layer(10 "silk")
 	Text[10000 234000 3 120 "HOMEBUDINO rev.1" "clearline"]
 	Text[32500 105000 3 100 "SC" "clearline"]
 	Text[32500 115000 3 100 "RC" "clearline"]
-	Text[33000 85500 3 100 "RI" "clearline"]
-	Text[32500 96000 3 100 "EI" "clearline"]
-	Text[38000 102500 0 100 "HOMEBUDINO" "clearline"]
-	Text[38000 94000 0 120 "Global Chypre" "clearline"]
+	Text[32500 95500 3 100 "RI" "clearline"]
+	Text[38000 101000 0 100 "HOMEBUDINO" "clearline"]
+	Text[38000 92500 0 120 "Global Chypre" "clearline"]
 )
 NetList()
 (
