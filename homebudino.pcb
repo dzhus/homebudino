@@ -2122,6 +2122,9 @@ Layer(10 "silk")
 	Line[148500 85000 155500 92000 1000 3150 "clearline"]
 	Line[183500 85500 177000 92000 1000 3150 "clearline"]
 	Line[183500 96000 183500 85500 1000 3150 "clearline"]
+	Line[137369 169920 131420 169920 800 1600 "clearline"]
+	Line[137369 174251 131651 174251 800 1600 "clearline"]
+	Line[63000 214600 63000 220800 1575 3150 "clearline"]
 	Text[164568 152757 0 144 "+" "clearline"]
 	Text[161926 45188 0 144 "+" "clearline"]
 	Text[151886 46780 0 122 "-" "clearline"]
@@ -2173,15 +2176,16 @@ Layer(10 "silk")
 	Text[140000 46000 0 100 "TX" "clearline"]
 	Text[130500 46000 0 100 "RX" "clearline"]
 	Text[158000 92500 0 120 "=^_^=" "clearline"]
-	Text[10000 234000 3 120 "HOMEBUDINO rev.1" "clearline"]
 	Text[32500 105000 3 100 "SC" "clearline"]
 	Text[32500 115000 3 100 "RC" "clearline"]
 	Text[32500 95500 3 100 "RI" "clearline"]
 	Text[38000 101000 0 100 "HOMEBUDINO" "clearline"]
-	Text[38000 92500 0 120 "Global Chypre" "clearline"]
 	Text[26500 209000 3 100 "GND" "clearline"]
 	Text[161574 328231 1 100 "+)-" "clearline"]
 	Text[51500 303500 0 100 "BLAME DZHUS" "clearline"]
+	Text[38000 92500 0 120 "Global Chypre" "clearline"]
+	Text[9900 231600 3 120 "HOMEBUDINO rev.2" "clearline"]
+	Text[32500 85600 3 100 "EI" "clearline"]
 )
 NetList()
 (
